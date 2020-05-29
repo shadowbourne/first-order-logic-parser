@@ -1,0 +1,11 @@
+Grammar = {*Vt*, *Vn*, *P*, <S>}
+*Vt* = {'w', 'x', 'y', 'z', 'C', 'D', 'P', 'Q', '=', '\\land', '\\lor', '\\implies', '\\iff', '\\neg', '\\exists', '\\forall', '(', ',', ')'}
+*Vn* = {'<S>', '<K>', '<C>', '<V>', '<Q>', '<L>', '<P>'}
+*P* = { <L> -> \land | \lor | \implies | \iff
+        <Q> -> \exists | \forall
+        <C> -> C | D
+        <V> -> w | x | y | z
+        <P> -> P(V,V) | Q(V)
+        <S> -> (<K> = <K>) | <P> | ( <S> <L> <S> ) | <Q> <V> <S> | \neg <S>
+        <K> -> <C> | <V>
+      }

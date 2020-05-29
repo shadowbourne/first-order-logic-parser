@@ -1,0 +1,1 @@
+Success, both the input file format and formula are valid. Check "tree.png" for the produced parse tree.
