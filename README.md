@@ -4,6 +4,9 @@ This summative assignment was assessed and marked by the professor of the module
 ## Grade: 1st - 97/100
 A full parser for first order logic, producing a parse tree (png) and a grammar containing all production rules and symbols, along with a log file.
 Repository contains source code, documentation, and example files of the outputs produced by the source code.
+## Toy Demo:
+
+![CD5](https://user-images.githubusercontent.com/18665030/136603131-b7e33868-961f-46fc-995f-ce2bfe66eb04.gif)
 
 # Documentation:
 ## Prerequisites:
