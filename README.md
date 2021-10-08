@@ -14,13 +14,13 @@ Before running source code, install the following:
 To run python source code (designed for python 3.7.7) run it from the command line with the input text file as its only argument: e.g. `python CD.py input.txt`.
 
 ## Produced files:
-Once run, the source code will produce a log file, `log.txt`, containing either a message saying success, telling you both your input file and supplied formula were valid, or, if not, an error message telling you what was wrong.
+* Once run, the source code will produce a log file, `log.txt`, containing either a message saying success, telling you both your input file and supplied formula were valid, or, if not, an error message telling you what was wrong.
 
-The code will also produce a grammar and store it inside a file called `grammar.txt`, containing the set of terminals (\*Vt\*), the set of non-terminals (\*Vt\*) and a set of all the production rules (\*P\*) in the grammar.
+* The code will also produce a grammar and store it inside a file called `grammar.txt`, containing the set of terminals (\*Vt\*), the set of non-terminals (\*Vt\*) and a set of all the production rules (\*P\*) in the grammar.
 
-If both the input file and the formula were valid, the program will also produce a visual depiction of the corresponding parse tree, contained in `tree.png`.
+* If both the input file and the formula were valid, the program will also produce a visual depiction of the corresponding parse tree, contained in `tree.png`.
 
-If the input file format was valid, but the formula was not, the appropriate grammar will still be displayed within `grammar.txt`, in order to assist you in troubleshooting your formula. 
+* If the input file format was valid, but the formula was not, the appropriate grammar will still be displayed within `grammar.txt`, in order to assist you in troubleshooting your formula. 
 
 ## Input:
 
